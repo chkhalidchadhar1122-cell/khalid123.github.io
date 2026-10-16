@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Freelance Hub offers ebook design, Canva graphics, video editing and social media content services.">
+<title>Freelance Hub | Creative Services</title>
+<style>
+:root{--bg:#f7f7fc;--card:#fff;--ink:#182033;--muted:#626b7d;--brand:#5b45d6;--brand2:#e9e5ff;--line:#e5e7ef}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(135deg,#251b62,#6854e8);color:#fff;padding:22px max(20px,calc((100% - 1080px)/2));display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.logo{font-size:1.25rem;font-weight:800;letter-spacing:.2px}.logo span{color:#d9d2ff}
+button,.btn{border:0;border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.lang{background:#fff;color:#332574}.primary{background:var(--brand);color:#fff}.whatsapp{background:#168b54;color:#fff}.secondary{background:var(--brand2);color:#342579}
+main{max-width:1080px;margin:auto;padding:24px 18px 50px}
+.hero{padding:38px 28px;border-radius:24px;background:#fff;border:1px solid var(--line);display:grid;grid-template-columns:1.4fr .8fr;gap:24px;align-items:center}
+.eyebrow{color:var(--brand);font-weight:800;text-transform:uppercase;font-size:.78rem;letter-spacing:1px}
+h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.08;margin:10px 0 14px}.muted{color:var(--muted)}.hero-art{background:linear-gradient(135deg,#eeeaff,#d8f7ed);border-radius:20px;min-height:200px;display:grid;place-items:center;font-size:5rem}
+section{margin-top:34px}h2{font-size:1.65rem;margin:0 0 8px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.card{background:var(--card);padding:20px;border:1px solid var(--line);border-radius:18px}.emoji{font-size:2rem}.card h3{margin:8px 0}.pill{font-size:.8rem;background:#f0edff;color:#4937a9;padding:5px 9px;border-radius:30px;display:inline-block}
+.order{display:grid;grid-template-columns:1fr 1fr;gap:20px}.formbox,.contactbox{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+label{display:block;font-weight:700;margin:12px 0 5px}input,select,textarea{width:100%;padding:12px;border:1px solid #cfd3df;border-radius:10px;font:inherit;background:#fff}textarea{min-height:100px;resize:vertical}.form-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.note{font-size:.9rem;color:var(--muted);background:#f2f0ff;padding:12px;border-radius:10px;margin-top:14px}
+footer{text-align:center;padding:22px;color:var(--muted);font-size:.9rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:26px 20px}.hero-art{min-height:120px;font-size:3.5rem}.cards{grid-template-columns:repeat(2,1fr)}.order{grid-template-columns:1fr}}
+@media(max-width:400px){.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">✦ Freelance <span>Hub</span></div>
+  <button class="lang" id="langBtn" type="button">اردو</button>
+</header>
+<main>
+  <div class="hero">
+    <div>
+      <div class="eyebrow" data-en="Creative digital services" data-ur="تخلیقی ڈیجیٹل سروسز">Creative digital services</div>
+      <h1 data-en="Your ideas, beautifully designed." data-ur="آپ کے خیالات، خوبصورت ڈیزائن کے ساتھ۔">Your ideas, beautifully designed.</h1>
+      <p class="muted" data-en="Ebook design, Canva graphics, video editing and social media content — all in one place." data-ur="ای بک ڈیزائن، کینوا گرافکس، ویڈیو ایڈیٹنگ اور سوشل میڈیا مواد — سب ایک جگہ۔">Ebook design, Canva graphics, video editing and social media content — all in one place.</p>
+      <a class="btn primary" href="#order" data-en="Request a Service" data-ur="سروس کا آرڈر دیں">Request a Service</a>
+      <a class="btn secondary" href="#services" data-en="Explore Services" data-ur="سروسز دیکھیں">Explore Services</a>
+    </div>
+    <div class="hero-art" aria-label="Creative work">📚 ✨</div>
+  </div>
+
+  <section id="services">
+    <h2 data-en="Our Services" data-ur="ہماری سروسز">Our Services</h2>
+    <p class="muted" data-en="Choose a service and tell us what you need." data-ur="سروس منتخب کریں اور بتائیں آپ کو کیا چاہیے۔">Choose a service and tell us what you need.</p>
+    <div class="cards">
+      <article class="card"><div class="emoji">📘</div><span class="pill" data-en="Digital publishing" data-ur="ڈیجیٹل پبلشنگ">Digital publishing</span><h3 data-en="Ebook Design" data-ur="ای بک ڈیزائن">Ebook Design</h3><p class="muted" data-en="Covers, page layouts and children's learning books." data-ur="کور، صفحات کی ترتیب اور بچوں کی تعلیمی کتابیں۔">Covers, page layouts and children's learning books.</p></article>
+      <article class="card"><div class="emoji">🎨</div><span class="pill">Canva</span><h3 data-en="Graphic Design" data-ur="گرافک ڈیزائن">Graphic Design</h3><p class="muted" data-en="Social posts, flyers, thumbnails and simple brand visuals." data-ur="سوشل پوسٹس، فلائرز، تھمب نیلز اور سادہ برانڈ ڈیزائن۔">Social posts, flyers, thumbnails and simple brand visuals.</p></article>
+      <article class="card"><div class="emoji">🎬</div><span class="pill" data-en="Short-form content" data-ur="مختصر ویڈیوز">Short-form content</span><h3 data-en="Video Editing" data-ur="ویڈیو ایڈیٹنگ">Video Editing</h3><p class="muted" data-en="Short videos, reels and captions using CapCut." data-ur="CapCut کے ذریعے مختصر ویڈیوز، ریلز اور کیپشنز۔">Short videos, reels and captions using CapCut.</p></article>
+      <article class="card"><div class="emoji">📱</div><span class="pill" data-en="Social media" data-ur="سوشل میڈیا">Social media</span><h3 data-en="Content & Posts" data-ur="مواد اور پوسٹس">Content & Posts</h3><p class="muted" data-en="Post ideas, captions and simple content calendars." data-ur="پوسٹ آئیڈیاز، کیپشنز اور سادہ کانٹینٹ کیلنڈر۔">Post ideas, captions and simple content calendars.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <h2 data-en="How ordering works" data-ur="آرڈر دینے کا طریقہ">How ordering works</h2>
+    <div class="cards">
+      <article class="card"><div class="emoji">1️⃣</div><h3 data-en="Pick a service" data-ur="سروس منتخب کریں">Pick a service</h3><p class="muted" data-en="Choose what you need in the form." data-ur="فارم میں اپنی مطلوبہ سروس منتخب کریں۔">Choose what you need in the form.</p></article>
+      <article class="card"><div class="emoji">2️⃣</div><h3 data-en="Share details" data-ur="تفصیل لکھیں">Share details</h3><p class="muted" data-en="Add your deadline and project description." data-ur="آخری تاریخ اور کام کی تفصیل لکھیں۔">Add your deadline and project description.</p></article>
+      <article class="card"><div class="emoji">3️⃣</div><h3 data-en="Send request" data-ur="درخواست بھیجیں">Send request</h3><p class="muted" data-en="Send it to WhatsApp or copy the request." data-ur="درخواست WhatsApp پر بھیجیں یا کاپی کریں۔">Send it to WhatsApp or copy the request.</p></article>
+      <article class="card"><div class="emoji">4️⃣</div><h3 data-en="Confirm price" data-ur="قیمت طے کریں">Confirm price</h3><p class="muted" data-en="Agree on scope, price and delivery before work starts." data-ur="کام شروع ہونے سے پہلے کام، قیمت اور ڈیلیوری طے کریں۔">Agree on scope, price and delivery before work starts.</p></article>
+    </div>
+  </section>
+
+  <section id="order">
+    <h2 data-en="Place an Order" data-ur="آرڈر دیں">Place an Order</h2>
+    <p class="muted" data-en="Fill in the details below. Your request will be prepared for WhatsApp; no payment is taken on this demo site." data-ur="نیچے تفصیل بھریں۔ آپ کی درخواست WhatsApp کے لیے تیار ہو جائے گی؛ اس ڈیمو ویب سائٹ پر ادائیگی نہیں لی جاتی۔">Fill in the details below. Your request will be prepared for WhatsApp; no payment is taken on this demo site.</p>
+    <div class="order">
+      <form class="formbox" id="orderForm">
+        <label for="customer" data-en="Your name" data-ur="آپ کا نام">Your name</label><input id="customer" required placeholder="Name / نام">
+        <label for="service" data-en="Service" data-ur="سروس">Service</label>
+        <select id="service" required>
+          <option value="Ebook Design">Ebook Design / ای بک ڈیزائن</option>
+          <option value="Canva Graphic Design">Canva Graphic Design / کینوا ڈیزائن</option>
+          <option value="Video Editing">Video Editing / ویڈیو ایڈیٹنگ</option>
+          <option value="Social Media Content">Social Media Content / سوشل میڈیا مواد</option>
+          <option value="Other">Other / کوئی اور کام</option>
+        </select>
+        <label for="deadline" data-en="Deadline (optional)" data-ur="کام کی آخری تاریخ (اختیاری)">Deadline (optional)</label><input id="deadline" placeholder="e.g. 3 days / مثلاً 3 دن">
+        <label for="details" data-en="Project details" data-ur="کام کی تفصیل">Project details</label><textarea id="details" required placeholder="Tell us what you need / اپنی ضرورت لکھیں"></textarea>
+        <div class="form-actions"><button class="whatsapp" type="submit" data-en="Send on WhatsApp" data-ur="WhatsApp پر بھیجیں">Send on WhatsApp</button><button class="secondary" type="button" id="copyBtn" data-en="Copy request" data-ur="درخواست کاپی کریں">Copy request</button></div>
+        <div class="note" data-en="Important: Replace the sample WhatsApp number in the file with your own number, including country code, without + or spaces." data-ur="ضروری: فائل میں دیا گیا نمونہ WhatsApp نمبر اپنے نمبر سے تبدیل کریں۔ ملک کا کوڈ لکھیں، مگر + یا خالی جگہ نہ دیں۔">Important: Replace the sample WhatsApp number in the file with your own number, including country code, without + or spaces.</div>
+      </form>
+      <aside class="contactbox">
+        <div class="emoji">💬</div><h3 data-en="Prefer a quick message?" data-ur="جلدی رابطہ کرنا چاہتے ہیں؟">Prefer a quick message?</h3>
+        <p class="muted" data-en="Use WhatsApp to discuss your project, budget and delivery time." data-ur="اپنے کام، بجٹ اور ڈیلیوری کے وقت پر بات کرنے کے لیے WhatsApp استعمال کریں۔">Use WhatsApp to discuss your project, budget and delivery time.</p>
+        <a class="btn whatsapp" id="quickWhatsApp" href="#" target="_blank" rel="noopener" data-en="Chat on WhatsApp" data-ur="WhatsApp پر رابطہ">Chat on WhatsApp</a>
+        <hr style="border:0;border-top:1px solid var(--line);margin:24px 0">
+        <h3 data-en="Portfolio" data-ur="پورٹ فولیو">Portfolio</h3>
+        <p class="muted" data-en="Add screenshots of your own ebook covers, Canva designs and video samples here as you build your portfolio." data-ur="اپنا پورٹ فولیو بنانے کے لیے اپنی ای بک کے کور، کینوا ڈیزائن اور ویڈیوز کے نمونے یہاں شامل کریں۔">Add screenshots of your own ebook covers, Canva designs and video samples here as you build your portfolio.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year"></span> Freelance Hub · <span data-en="Built for creative work" data-ur="تخلیقی کام کے لیے بنایا گیا">Built for creative work</span></footer>
+<script>
+/* IMPORTANT: Replace this sample with your WhatsApp number, e.g. Pakistan: 923001234567 */
+const WHATSAPP_NUMBER = "923001234567";
+let currentLang = "en";
+const langBtn = document.getElementById("langBtn");
+function setLang(lang){
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "ur" ? "rtl" : "ltr";
+  document.querySelectorAll("[data-en][data-ur]").forEach(el => { el.textContent = el.dataset[lang]; });
+  langBtn.textContent = lang === "en" ? "اردو" : "English";
+}
+langBtn.addEventListener("click",()=>setLang(currentLang === "en" ? "ur" : "en"));
+function getRequest(){
+  const name = document.getElementById("customer").value.trim();
+  const service = document.getElementById("service").value;
+  const deadline = document.getElementById("deadline").value.trim() || "Not specified";
+  const details = document.getElementById("details").value.trim();
+  return `Freelance Hub Order Request\nName: ${name}\nService: ${service}\nDeadline: ${deadline}\nDetails: ${details}`;
+}
+function whatsappUrl(message){return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;}
+document.getElementById("orderForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  if(WHATSAPP_NUMBER === "923001234567"){alert("Please replace the sample WhatsApp number in index.html with your own number first.");return;}
+  window.open(whatsappUrl(getRequest()),"_blank","noopener");
+});
+document.getElementById("copyBtn").addEventListener("click",async()=>{
+  if(!document.getElementById("customer").value.trim() || !document.getElementById("details").value.trim()){
+    alert(currentLang === "ur" ? "براہ کرم اپنا نام اور کام کی تفصیل لکھیں۔" : "Please enter your name and project details first.");return;
+  }
+  const text = getRequest();
+  try{await navigator.clipboard.writeText(text);alert(currentLang === "ur" ? "درخواست کاپی ہو گئی۔" : "Request copied.");}
+  catch(e){prompt(currentLang === "ur" ? "درخواست کاپی کریں:" : "Copy your request:",text);}
+});
+document.getElementById("quickWhatsApp").addEventListener("click",e=>{
+  if(WHATSAPP_NUMBER === "923001234567"){e.preventDefault();alert("Please replace the sample WhatsApp number in index.html with your own number first.");}
+  else{e.currentTarget.href=whatsappUrl("Hello Freelance Hub! I would like to ask about your services.");}
+});
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
